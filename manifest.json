@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Gc Music Changer" ,
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches":[
+                "https://gamersclub.com.br/lobby"
+            ],
+            "js":[
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "musica.mp3"
+    ]
+}
